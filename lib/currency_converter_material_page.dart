@@ -40,7 +40,7 @@ class _CurrencyConverterMaterialPageState
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "INR  $convertedValue",
+              "INR  ${convertedValue.toStringAsFixed(2)}",
               style: const TextStyle(
                 fontSize: 55,
                 fontWeight: FontWeight.bold,
